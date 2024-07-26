@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="zone">
+        <header>
+            <div class="header-zone">
+                <img src="./Images/logo.svg" alt="Logo">
+                <div class="header-score-zone">
+                    <span>Score</span>
+                    <p class="score-num">0</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-relative">
+                <img src="./Images/bg-triangle.svg" alt="Triangle Background" class="triangle-img">
+            </div>
+            <div class="paper-img">
+                <img src="./Images/icon-paper.svg" alt="Paper"> 
+            </div>
+            <div class="scissors-img">
+                <img src="./Images/icon-scissors.svg" alt="Scissors">
+            </div>
+            <div class="rock-img">
+                <img src="./Images/icon-rock.svg" alt="Rock">
+            </div>
+        </main>
+        <div class="active">
+            <div class="first-zone">
+                <h4>You picked</h4>
+                <div>
+                    <img src="" alt="First Choice" id="first-choice">
+                </div>
+            </div>
+            <div class="result-zone">
+                <h2></h2>
+                <button class="btn-tryAgain">Play Again</button>
+            </div>
+            <div class="second-zone">
+                <h4>The house picked</h4>
+                <div>
+                    <img src="" alt="Second Choice" id="second-choice">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="button-zone">
+                <button class="btn-primary">RULES</button>
+            </div>
+            <div class="rules-active">
+                <div class="rylesInside-zone">
+                    <h2 style="color:rgba(0, 40, 53, 0.8) ;">RULES</h2>
+                    <button type="button" class="close-btn">
+                        <img src="./Images/icon-close.svg" alt="close icon">
+                    </button>
+                </div>
+                <img src="./Images/image-rules.svg" alt="Rules Img" style="display: block;">
+            </div>
+        </footer>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
